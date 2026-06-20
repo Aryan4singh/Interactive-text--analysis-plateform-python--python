@@ -35,8 +35,7 @@ def extract_ngrams(text_tokens, n=2):
 
 <p align="center">
   <img src="assets/04_wordcloud.png" width="31%" alt="Dynamic Word Cloud Grid">
-  <img src="assets/05_ngram_analysis.png" width="31%" alt="Bigram Trends Chart">
-  <img src="assets/06_trigram_charts.png" width="31%" alt="Trigram Patterns Chart">
+  <img src="assets/05_trigram_charts.png" width="31%" alt="Trigram Patterns Chart">
 </p>
 
 ### 3. Deep Learning Insights (Hugging Face Pipelines)
