@@ -46,14 +46,22 @@ This is where the heavy text classification takes place. The dashboard pipes you
 * **Zero-Shot Tone Analysis** (`facebook/bart-large-mnli`): Detects formal vs. casual structures.
 * **Abstractive Summarization** (`google-t5/t5-small`): Synthesizes long blocks into crisp summaries.
 
-<p align="center">
-  <img src="assets/07_sentiment_analysis.png" width="48%" alt="Sentiment Models Dashboard">
-  <img src="assets/08_emotion_detection.png" width="48%" alt="Fine Grained Emotion Plots">
-</p>
-<p align="center">
-  <img src="assets/09_tone_of_speech.png" width="48%" alt="Tone Breakdown Map">
-  <img src="assets/10_summary_generation.png" width="48%" alt="Generated Abstract Summary">
-</p>
+### 3. Deep Learning Insights (Hugging Face Pipelines)
+
+This is where the heavy text classification takes place. The dashboard pipes your clean data into four specialized, pre-trained Hugging Face models simultaneously.
+
+<!-- SENTIMENT AND EMOTION DETECTION GRID -->
+<div align="center" style="display: flex; justify-content: center; align-items: middle; gap: 15px; margin-bottom: 20px;">
+  <img src="assets/07_sentiment_analysis.png" height="240" style="border-radius: 6px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3);" alt="Sentiment Analysis Dashboard" />
+  <img src="assets/08_emotion_detection.png" height="240" style="border-radius: 6px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3);" alt="Fine Grained Emotion Plots" />
+</div>
+
+<!-- TONE AND SUMMARY GENERATION GRID -->
+<div align="center" style="display: flex; justify-content: center; align-items: middle; gap: 15px;">
+  <img src="assets/09_tone_of_speech.png" height="200" style="border-radius: 6px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3);" alt="Speech Tone Classification Spectrum" />
+  <img src="assets/10_summary_generation.png" height="200" style="border-radius: 6px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3);" alt="Abstractive Summary Block" />
+</div>
+
 
 ### 4. Custom Bulk Data Filtration
 When a user uploads a CSV file, the app activates structural layout filters, letting you isolate specific rows or columns of text before pushing the clean batch into the analytics pipelines.
