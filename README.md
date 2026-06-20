@@ -61,7 +61,6 @@ When a user uploads a CSV file, the app activates structural layout filters, let
 <p align="center">
   <img src="assets/11_csv_upload.png" width="31%" alt="CSV Upload Panel">
   <img src="assets/12_dataframe_filters.png" width="31%" alt="Interactive Filters">
-  <img src="assets/13_bulk_insights.png" width="31%" alt="Batch Generation Metrics">
 </p>
 
 ---
